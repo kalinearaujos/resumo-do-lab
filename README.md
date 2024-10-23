@@ -150,4 +150,44 @@ Gerenciados de armazenamento do Azure: Interface gráfica do usuário(de modo se
 
 Sincronização de arquivos do Azure: Sincroniza os arquivos do Azure e locais de forma bidirecional. A camada de nuvem mantém os arquivos acessados com frequência no local, enquanto não libera espaço.
 
+----> Arquitetura e serviços do Azure <----
+
+Identidade, acesso e segurança: domínio de objetivo
+Id do Microsoft Entra: é o serviço de gerenciamento de identidade e acesso baseado em nuvem do Microsoft Azure.
+-Autenticação (os funcionários entram para acessar os recursos).
+-Logon único (SSO).
+-Gerenciamento de aplicativos.
+-Negócios para negócios (b2b).
+-Gerenciamento de dispositivos.
+
+Id do Microsoft Entra Domain services: sincronizar grupos, senhas e SIDs com Id, sincronização automática em segundo plano com seu domínio gerenciado.
+Obtenha benefícios dos serviços de domínio baseados em nuvem sem gerenciar os controladores de domínio.
+execute aplicativos herdados (que não podem utilizar os padrões de autenticação modernos) na nuvem.
+
+--- Comparar a autenticação e a autorização
+
+*Autenticação: identifica a pessoa ou serviço buscando acesso a um recurso, solicita credenciais de acesso legitimo, base para criar princípios de identidade e controle de acesso seguros.
+
+*Autorização: determina o nível de acesso de uma pessoa ou serviço autenticado, define quais dados eles podem acessar e o que podem fazer com eles.
+
+*Autenticação multifator: fornece uma segurança adicional para as identidades, exigindo dois ou mais elementos para autenticação completa.
+
+B2B do Microsoft Entra External ID: 
+B2C de Identidades externas do Azure AD: compartilhamento de uma pequena porcentagem para o publico externo.
+
+Acesso condicional: associação de usuário ou grupo, local do IP, dispositivo, aplicativo, detecção de risco
+
+Controle de acesso baseado em função: 
+* gerenciamento de acesso de granularidade fina.
+* divida as tarefas dentro da equipe e conceda somente a quantidade de acesso de que os usuários precisam de trabalhar.
+* habilite o acesso ao portal Azure e o controle de acesso aos recursos.
+
+Confiança zero - proteja os ativos onde eles estiverem com a confiança Zero.
+Proteção completa (camadas). abordagem em camadas para proteger sistemas de computador, fornecer níveis de proteção, ataques contra uma camada são isolados das camadas subsequentes.
+
+Microsoft defender para nuvem: é um serviço de monitoramento que fornece proteção contra ameaças nos datacenters do Azure e locais.
+
+Recursos do Azure: fornece recomendações de segurança, detecta e bloqueia malware, analisa e identifica ataques potenciais e controla o acesso just-intime para portas.
+
+
 
