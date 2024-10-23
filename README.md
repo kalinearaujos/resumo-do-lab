@@ -119,4 +119,35 @@ DNS do Azure:
 -Redes virtuais personalizáveis permitem que você use nomes de domínio privados e totalmente personalizados em suas redes virtuais privadas.
 -Os registros de alias dão suporte a conjuntos de registros de alias para apontar diretamente para um recurso do Azure.
 
+ ----> Armazenamento do Azure <----
+
+Armazenamento: Domínio de objeto
+Contas de armazenamento
+-Deve ter um nome globalmente exclusivo (3 a 24 caracteres).
+-Fornecer acesso a internet em todo mundo.
+-Determinar os serviços de armazenamento e as opções de redundância.(LRS- redundância local, ZRS - redundância de zona, GRS - redundância geográfica, GZRS - redundância de zona geográfica).
+
+Blob do Azure: otimizado para o armazenamento de quantidades massivas de dados não estruturados como texto ou dados binários.
+Disco do Azure: fornece discos para máquinas virtuais, aplicativos e outros serviços acessarem e utilizarem.
+Fila do Azure: serviço de armazenamento de mensagens que fornece armazenamento e recuperação para grandes quantidades de mensagens, cada uma com até 64 KB.
+Arquivo do Azure: Configura um compartilhamento de arquivos de rede altamente disponível que pode ser utilizado usando o protocolo de mensagens do servidor.
+tabelas do Azure: fornece uma opção de chave/atributo para armazenamento de dados estruturados não relacionais com um design sem esquema.
+
+Pontos de extremidade públicos do serviço de armazenamento: armazenamento de blobs, data lake storage Gen2, arquivos do Azure, armazenamento de fila e armazenamento de tabelas.
+Camadas de acesso de armazenamento do Azure: 
+-frequente (armazenamento de dados acessados com frequência),
+-esporádico (para armazenamento de dados acessados com pouca frequência e armazenados por pelo menos 30 dias), 
+-frio (para armazenamento de dados acessados com pouca e armazenados por pelo menos 90 dias), 
+-arquivo morto (para armazenamento de dados acessados raramente e armazenados por pelo menos 180 dias com requisitos de latência flexíveis).
+
+-- Migrações para o Azure: Plataforma de migração unificada, intervalo de ferramentas integradas e autônomas, avaliação e migração.
+
+-- Azure data box: armazena até 80 terabytes de dados, move backups de recuperação de desastre para o Azure e protege os dados em uma caixa robusta durante o transito, migre dados do Azure para conformidade ou necessidades regulatórios, migre dados para o Azure de locais remotos com conectividade ou sem conectividade.
+
+AzCopy: utilitário de linha de comando, copiar blobs ou arquivos para sua conta de armazenamento, sincronização em uma direção.
+
+Gerenciados de armazenamento do Azure: Interface gráfica do usuário(de modo semelhante ao Windows Explorer). Compatível com o Windows, MacOS e Linux.
+
+Sincronização de arquivos do Azure: Sincroniza os arquivos do Azure e locais de forma bidirecional. A camada de nuvem mantém os arquivos acessados com frequência no local, enquanto não libera espaço.
+
 
