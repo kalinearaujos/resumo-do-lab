@@ -192,3 +192,5 @@ Recursos do Azure: fornece recomendações de segurança, detecta e bloqueia mal
 -----> Gerenciamento de Custos: Calculadora de custos e preços e gerenciamento de custos e marcas.
 Veremos os fatores que podem afetar os custos no Azure e a calculadora de preços e a calculadora de custo total (TCO)
 
+Foi estudado sobre os fatores que podem afetar os custos no Azure, etc.
+
