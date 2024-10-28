@@ -189,5 +189,6 @@ Microsoft defender para nuvem: é um serviço de monitoramento que fornece prote
 
 Recursos do Azure: fornece recomendações de segurança, detecta e bloqueia malware, analisa e identifica ataques potenciais e controla o acesso just-intime para portas.
 
-
+-----> Gerenciamento de Custos: Calculadora de custos e preços e gerenciamento de custos e marcas.
+Veremos os fatores que podem afetar os custos no Azure e a calculadora de preços e a calculadora de custo total (TCO)
 
